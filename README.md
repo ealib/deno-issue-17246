@@ -41,7 +41,7 @@ C:\deno-issue-17246>npm run start-deno
 > deno-test-native@1.0.0 start-deno
 > deno run --unstable --allow-all test-native.ts
 
-error: Unable to load C:\Users\Utente\AppData\Local\deno\npm\registry.npmjs.org\node-mdaemon-api\22.0.3-alpha.19\node-mdaemon-api.node imported from file:///E:/mtka/mtka-mdaemon/deno-issue-17246/test-native.ts
+error: Unable to load C:\Users\Utente\AppData\Local\deno\npm\registry.npmjs.org\node-mdaemon-api\22.0.3-alpha.19\node-mdaemon-api.node imported from file:///C:/deno-issue-17246/test-native.ts
 
 Caused by:
     stream did not contain valid UTF-8
