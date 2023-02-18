@@ -6,7 +6,7 @@
     "scripts": {
         "start-node": "node test-native.js",
         "start-deno": "deno run --unstable --allow-all test-native.ts",
-        "start": "start-node"
+        "start": "npm run start-node"
     },
     "author": {
         "name": "Emanuele Aliberti",
