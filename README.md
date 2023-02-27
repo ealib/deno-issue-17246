@@ -21,7 +21,7 @@ C:\deno-issue-17246>npm run start-node
   isFreeVersion: true,
   name: 'node-mdaemon-api',
   version: {
-    full: '22.0.3-alpha.19',
+    full: '22.0.3-alpha.20',
     major: 22,
     minor: 0,
     release: 3,
