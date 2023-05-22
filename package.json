@@ -5,7 +5,7 @@
     "main": "test-native.js",
     "scripts": {
         "start-node": "node test-native.js",
-        "start-deno": "deno run --unstable --allow-all test-native.ts",
+        "start-deno": "deno run --allow-all test-native.ts",
         "start": "npm run start-node"
     },
     "author": {
