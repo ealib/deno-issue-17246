@@ -7,28 +7,39 @@ which allows Node.js to access the MDaemon's native APIs (an application
 available **exclusively for Windows**), here are two scripts showing the
 correct loading with Node.js and the error with Deno.
 
+## `package.json`
+
+```json
+{
+    //...
+    "dependencies": {
+        "node-mdaemon-api": "^23.5.3-alpha.27"
+    }
+    //...
+}
+```
+
 ## Node.js: `test-native.js`
 
 ```cmd
-C:\deno-issue-17246>npm run start-node
-
-> deno-test-native@1.0.0 start-node
-> node test-native.js
-
+C:\deno-issue-17246>yarn run start-node
+yarn run v1.22.22
+$ node test-native.js
 {
   fileName: '\\\\?\\C:\\deno-issue-17246\\node_modules\\node-mdaemon-api\\node-mdaemon-api.node',
   isPrerelease: true,
   isFreeVersion: true,
   name: 'node-mdaemon-api',
   version: {
-    full: '23.0.0-alpha.20',
-    major: 22,
-    minor: 0,
+    full: '23.5.3-alpha.27',
+    major: 23,
+    minor: 5,
     release: 3,
-    build: 330,
-    tag: 'alpha.19'
+    build: 86,
+    tag: 'alpha.27'
   }
 }
+Done in 0.22s.
 
 C:\deno-issue-17246>
 ```
@@ -36,15 +47,15 @@ C:\deno-issue-17246>
 ## Deno: `test-native.ts`
 
 ```cmd
-C:\deno-issue-17246>npm run start-deno
-
-> deno-test-native@1.0.0 start-deno
-> deno run --unstable --allow-all test-native.ts
-
-error: Unable to load C:\Users\Utente\AppData\Local\deno\npm\registry.npmjs.org\node-mdaemon-api\22.0.3-alpha.19\node-mdaemon-api.node imported from file:///C:/deno-issue-17246/test-native.ts
+C:\deno-issue-17246>yarn run start-deno
+yarn run v1.22.22
+$ deno run --reload --allow-all test-native.ts
+error: Unable to load E:\deno-issue-17246\node_modules\.deno\node-mdaemon-api@23.5.3-alpha.27\node_modules\node-mdaemon-api\node-mdaemon-api.node imported from file:///E:/deno-issue-17246/test-native.ts
 
 Caused by:
-    stream did not contain valid UTF-8
+    invalid utf-8 sequence of 1 bytes from index 2
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 
 C:\deno-issue-17246>
 ```

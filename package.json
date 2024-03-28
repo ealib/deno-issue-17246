@@ -5,7 +5,7 @@
     "main": "test-native.js",
     "scripts": {
         "start-node": "node test-native.js",
-        "start-deno": "deno run --allow-all test-native.ts",
+        "start-deno": "deno run --reload --allow-all test-native.ts",
         "start": "npm run start-node"
     },
     "author": {
@@ -29,6 +29,6 @@
         "node": ">=16 <21"
     },
     "dependencies": {
-        "node-mdaemon-api": "^23.5.2-alpha.25"
+        "node-mdaemon-api": "^23.5.3-alpha.27"
     }
 }
