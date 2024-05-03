@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-node-mdaemon-api@^23.5.3-alpha.27:
-  version "23.5.3-alpha.27"
-  resolved "https://registry.yarnpkg.com/node-mdaemon-api/-/node-mdaemon-api-23.5.3-alpha.27.tgz#36d0790fcef29019b0be0e7d58a6ef1da3fc2921"
-  integrity sha512-5UmXdzI13pXY1vbqPbyNXOEBy44RqhpXpGPaY/R9YglhJbXEOiV6Cdom1aPftM6Gfwo1fa6gbxJc0jEfAt1uVA==
+node-mdaemon-api@^23.5.3-alpha.29:
+  version "23.5.3-alpha.29"
+  resolved "https://registry.yarnpkg.com/node-mdaemon-api/-/node-mdaemon-api-23.5.3-alpha.29.tgz#09b55fc3c0cde278b85de0329365fd5f065fbc85"
+  integrity sha512-Dczig4wekSXT73TyegrvSaoYXRq1th2hXE4AH4899N7+MoalgzAwBVV5Bic4iV1ZkrRNaG0jV4RGZ5gx2JYdXQ==

@@ -13,7 +13,7 @@ correct loading with Node.js and the error with Deno.
 {
     //...
     "dependencies": {
-        "node-mdaemon-api": "^23.5.3-alpha.27"
+        "node-mdaemon-api": "^23.5.3-alpha.29"
     }
     //...
 }
@@ -31,12 +31,12 @@ $ node test-native.js
   isFreeVersion: true,
   name: 'node-mdaemon-api',
   version: {
-    full: '23.5.3-alpha.27',
+    full: '23.5.3-alpha.29',
     major: 23,
     minor: 5,
     release: 3,
-    build: 86,
-    tag: 'alpha.27'
+    build: 101,
+    tag: 'alpha.29'
   }
 }
 Done in 0.22s.
@@ -50,7 +50,7 @@ C:\deno-issue-17246>
 C:\deno-issue-17246>yarn run start-deno
 yarn run v1.22.22
 $ deno run --reload --allow-all test-native.ts
-error: Unable to load E:\deno-issue-17246\node_modules\.deno\node-mdaemon-api@23.5.3-alpha.27\node_modules\node-mdaemon-api\node-mdaemon-api.node imported from file:///E:/deno-issue-17246/test-native.ts
+error: Unable to load E:\deno-issue-17246\node_modules\.deno\node-mdaemon-api@23.5.3-alpha.29\node_modules\node-mdaemon-api\node-mdaemon-api.node imported from file:///E:/deno-issue-17246/test-native.ts
 
 Caused by:
     invalid utf-8 sequence of 1 bytes from index 2
