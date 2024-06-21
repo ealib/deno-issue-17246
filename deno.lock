@@ -2,11 +2,11 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:node-mdaemon-api": "npm:node-mdaemon-api@23.5.3-alpha.30"
+      "npm:node-mdaemon-api": "npm:node-mdaemon-api@24.0.0-alpha.32"
     },
     "npm": {
-      "node-mdaemon-api@23.5.3-alpha.30": {
-        "integrity": "sha512-/CFFSyDqXNGQA19WfvgDcpEHTQuqIclZXKmMBfyChchEqOPx5C3z55gZQRDg2Ze0TlR6DiJ2f8L9gxNHcbrltA==",
+      "node-mdaemon-api@24.0.0-alpha.32": {
+        "integrity": "sha512-eSmWIIZGShywhCjhyoh2QNBy0Wm5Jri3lHPvILSxZvPAuZrGcwnc6OW4rZEyUdC4/Pr8C4pOEyy8+klxgxRsKw==",
         "dependencies": {}
       }
     }
@@ -15,7 +15,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:node-mdaemon-api@^23.5.3-alpha.30"
+        "npm:node-mdaemon-api@^24.0.0-alpha.32"
       ]
     }
   }
