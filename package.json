@@ -4,9 +4,7 @@
     "description": "",
     "main": "test-native.js",
     "scripts": {
-        "start-node": "node test-native.js",
-        "start-deno": "deno run --reload --allow-all test-native.ts",
-        "start": "npm run start-node"
+        "start": "node native.js"
     },
     "author": {
         "name": "Emanuele Aliberti",

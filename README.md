@@ -13,49 +13,46 @@ correct loading with Node.js and the error with Deno.
 {
     //...
     "dependencies": {
-        "node-mdaemon-api": "^23.5.3-alpha.29"
+        "node-mdaemon-api": "^24.0.2-alpha.34"
     }
     //...
 }
 ```
 
-## Node.js: `test-native.js`
+## Node.js: `native.js`
 
 ```cmd
-C:\deno-issue-17246>yarn run start-node
+C:\deno-issue-17246>yarn start
 yarn run v1.22.22
-$ node test-native.js
+$ node native.js
 {
   fileName: '\\\\?\\C:\\deno-issue-17246\\node_modules\\node-mdaemon-api\\node-mdaemon-api.node',
   isPrerelease: true,
   isFreeVersion: true,
   name: 'node-mdaemon-api',
   version: {
-    full: '23.5.3-alpha.30',
-    major: 23,
-    minor: 5,
-    release: 3,
-    build: 138,
-    tag: 'alpha.30'
+    full: '24.0.2-alpha.34',
+    major: 24,
+    minor: 0,
+    release: 2,
+    build: 232,
+    tag: 'alpha.34'
   }
 }
-Done in 0.22s.
+Done in 0.55s.
 
 C:\deno-issue-17246>
 ```
 
-## Deno: `test-native.ts`
+## Deno: `native.ts`
 
 ```cmd
-C:\deno-issue-17246>yarn run start-deno
-yarn run v1.22.22
-$ deno run --reload --allow-all test-native.ts
-error: Unable to load C:\deno-issue-17246\node_modules\.deno\node-mdaemon-api@23.5.3-alpha.30\node_modules\node-mdaemon-api\node-mdaemon-api.node imported from file:///C:/deno-issue-17246/test-native.ts
+C:\deno-issue-17246>deno task start
+Task start deno run --reload --allow-all native.ts
+error: Expected ';', '}' or <eof> at file:///C:/deno-issue-17246/node_modules/.deno/node-mdaemon-api@24.0.2-alpha.34/node_modules/node-mdaemon-api/node-mdaemon-api.node:1:3
 
-Caused by:
-    invalid utf-8 sequence of 1 bytes from index 2
-error Command failed with exit code 1.
-info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+  MZ�♥♦���@►☺♫▼�♫�      �!�☺L�!Th...
+    ~
 
 C:\deno-issue-17246>
 ```
