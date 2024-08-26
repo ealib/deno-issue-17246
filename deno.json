@@ -1,6 +1,7 @@
 {
     "tasks": {
-        "start": "deno run --reload --allow-all native.ts"
+        "start": "deno run --reload --allow-all native.ts",
+        "start:debug": "deno run --reload --allow-all --log-level debug native.ts"
     },
     "imports": {
         "@std/assert": "jsr:@std/assert@1"
