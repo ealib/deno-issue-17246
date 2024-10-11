@@ -27,6 +27,6 @@
         "node": ">=16 <21"
     },
     "dependencies": {
-        "node-mdaemon-api": "^24.0.2-alpha.34"
+        "node-mdaemon-api": "^24.0.2-alpha.35"
     }
 }

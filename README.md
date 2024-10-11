@@ -13,7 +13,7 @@ correct loading with Node.js and the error with Deno.
 {
     //...
     "dependencies": {
-        "node-mdaemon-api": "^24.0.2-alpha.34"
+        "node-mdaemon-api": "^24.0.2-alpha.35"
     }
     //...
 }
