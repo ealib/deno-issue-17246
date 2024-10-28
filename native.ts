@@ -1,4 +1,4 @@
-import { getModuleInfo } from 'npm:node-mdaemon-api'; 
+import { getModuleInfo } from 'node-mdaemon-api'; 
 
 const moduleInfo = getModuleInfo();
 
