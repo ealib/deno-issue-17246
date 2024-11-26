@@ -24,9 +24,9 @@
         "!mips"
     ],
     "engines": {
-        "node": ">=16 <21"
+        "node": ">=16 <23"
     },
     "dependencies": {
-        "node-mdaemon-api": "^24.0.2-alpha.35"
+        "node-mdaemon-api": "^24.5.2-alpha.37"
     }
 }

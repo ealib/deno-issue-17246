@@ -13,7 +13,7 @@ correct loading with Node.js and the error with Deno.
 {
     //...
     "dependencies": {
-        "node-mdaemon-api": "^24.0.2-alpha.35"
+        "node-mdaemon-api": "^24.5.2-alpha.37"
     }
     //...
 }
@@ -31,12 +31,12 @@ $ node native.js
   isFreeVersion: true,
   name: 'node-mdaemon-api',
   version: {
-    full: '24.0.2-alpha.34',
+    full: '24.5.2-alpha.37',
     major: 24,
-    minor: 0,
+    minor: 5,
     release: 2,
-    build: 232,
-    tag: 'alpha.34'
+    build: 330,
+    tag: 'alpha.37'
   }
 }
 Done in 0.55s.
@@ -49,7 +49,7 @@ C:\deno-issue-17246>
 ```cmd
 C:\deno-issue-17246>deno task start
 Task start deno run --reload --allow-all native.ts
-error: Expected ';', '}' or <eof> at file:///C:/deno-issue-17246/node_modules/.deno/node-mdaemon-api@24.0.2-alpha.34/node_modules/node-mdaemon-api/node-mdaemon-api.node:1:3
+error: Expected ';', '}' or <eof> at file:///C:/deno-issue-17246/node_modules/.deno/node-mdaemon-api@24.5.2-alpha.37/node_modules/node-mdaemon-api/node-mdaemon-api.node:1:3
 
   MZ�♥♦���@►☺♫▼�♫�      �!�☺L�!Th...
     ~
