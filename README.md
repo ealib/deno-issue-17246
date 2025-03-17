@@ -22,8 +22,8 @@ correct loading with Node.js and the error with Deno.
 ## Node.js: `native.js`
 
 ```cmd
-C:\deno-issue-17246>yarn start
-yarn run v1.22.22
+C:\deno-issue-17246>pnpm start
+pnpm run v1.22.22
 $ node native.js
 {
   fileName: '\\\\?\\C:\\deno-issue-17246\\node_modules\\node-mdaemon-api\\node-mdaemon-api.node',

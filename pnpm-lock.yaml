@@ -1,0 +1,25 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      node-mdaemon-api:
+        specifier: 25.0.0-alpha.38
+        version: 25.0.0-alpha.38
+
+packages:
+
+  node-mdaemon-api@25.0.0-alpha.38:
+    resolution: {integrity: sha512-WoIQUv4zvvA0WxQ0Bz2h1EUlAKuTEOFmRnCCm39QDdT3Vw4FgH9solxtAiVOnpN2Rm6/Dyc+VLs9OLjjOdFCiw==}
+    engines: {node: '>=19.0.0 <23'}
+    cpu: [x64]
+    os: [win32]
+
+snapshots:
+
+  node-mdaemon-api@25.0.0-alpha.38: {}
